@@ -136,7 +136,7 @@ li {
     padding: 18px;
     width: 180px;
     text-decoration: none;
-    outline: 4px ridge #000;
+    outline: 6px ridge white;
     font-size: 18px;
     text-align: right;
     color: white;
@@ -145,8 +145,8 @@ li {
 
 #mySidenav a:hover {
     left: 0;
-	outline: 6px ridge #000;
-	font-size: 24px;
+	outline: 8px ridge white;
+	font-size: 20px;
 }
 
 
