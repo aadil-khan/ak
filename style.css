@@ -131,7 +131,7 @@ li {
 
 #mySidenav a {
     position: absolute;
-    left: -80px;
+    left: -70px;
     transition: 0.5s;
     padding: 18px;
     width: 180px;
@@ -191,5 +191,4 @@ li {
 	font-size: 12px;
 	font-weight: bold;	
 }
-
 
