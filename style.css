@@ -6,10 +6,10 @@ body {
 	background: #6e7187 url(image.jpg) repeat;
 	height: 100%; 
 	background-size: 150% 150%;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 	background-position: center;
 	background-repeat: repeat;
-	font-family: 'Abril Fatface', cursive;
+/*	font-family: 'Abril Fatface' !important; */
 	font-size: 14px;
 	color: #000;
 	animation: shrink 30s linear infinite alternate;
@@ -128,6 +128,9 @@ li {
 	color: #000
 }
 
+div.fixed {
+	position: fixed;
+}
 
 #mySidenav a {
     position: absolute;
@@ -158,35 +161,35 @@ li {
 }
 
 #Instagram {
-    top: 55px;
+    top: 60px;
     background-color: #f44336;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 #Facebook {
-    top: 105px;
+    top: 115px;
 	background-color: #003366;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 #Email {
-    top: 155px;
+    top: 170px;
     background-color: #cc6600;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 #Twitter {
-	top:205px;
+	top:225px;
 	background-color: #01afb2;
 	font-size: 12px;
 	font-weight: bold;
 }
 
 #Github {
-	top:255px;
+	top:280px;
 	background-color: gray;
 	font-size: 12px;
 	font-weight: bold;	
