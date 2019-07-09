@@ -55,7 +55,7 @@ a:hover {
 
 div.fixed {
 	position: fixed;
-	z-index: 5;
+	z-index: 10;
 }
 
 #mySidenav a {
@@ -65,17 +65,20 @@ div.fixed {
     padding: 18px;
     width: 180px;
     text-decoration: none;
-    outline: 6px ridge white;
     font-size: 18px;
     text-align: right;
     color: white;
-    border-radius: 0 0 0 0;
+    border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 4pt 3pt white;
+	/*outline: 6px ridge white;*/
 }
 
 #mySidenav a:hover {
-    left: 0;
-	outline: 8px ridge white;
+    left: 5px;
+	/*outline: 8px ridge white;*/
 	font-size: 20px;
+	box-shadow: 0 0 6pt 4pt black;
+	z-index: 11;
 }
 
 
@@ -118,6 +121,6 @@ div.fixed {
 	top:280px;
 	background-color: gray;
 	font-size: 12px;
-	font-weight: bold;	
+	font-weight: bold;
 }
 
