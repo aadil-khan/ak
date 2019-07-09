@@ -55,7 +55,7 @@ a:hover {
 
 div.fixed {
 	position: fixed;
-	
+	z-index: 5;
 }
 
 #mySidenav a {
