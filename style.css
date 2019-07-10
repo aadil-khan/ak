@@ -91,7 +91,8 @@ div.fixed {
 
 #Instagram {
     top: 60px;
-    background-color: #f44336;
+	background-color: red;
+	background-repeat: no-repeat;
 	font-size: 12px;
 	font-weight: bold;
 }
@@ -120,6 +121,75 @@ div.fixed {
 #Github {
 	top:280px;
 	background-color: gray;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+div.fixed2 {
+	position: fixed;
+	right: 200px;
+	z-index: 10;
+}
+
+#mySidenav2 a {
+    position: absolute;
+    right: -140px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 6pt 4pt white;
+	text-shadow: 2pt 4pt 3pt white;
+}
+
+#mySidenav2 a:hover {
+    right: -130px;
+	font-size: 20px;
+	box-shadow: 0 0 6pt 4pt black;
+	z-index: 11;
+}
+
+
+#Linkedin2 {
+    top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Instagram2 {
+    top: 60px;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Facebook2 {
+    top: 115px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Email2 {
+    top: 170px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Twitter2 {
+	top:225px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Github2 {
+	top:280px;
 	font-size: 12px;
 	font-weight: bold;
 }
