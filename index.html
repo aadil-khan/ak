@@ -4,7 +4,14 @@
 <head>
 <meta http-equiv="refresh" content="604800">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="shortcut icon" href="aecom-logo.ico" />
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	$(window).load(function() {
+	$(".se-pre-con").fadeOut("slow");;
+	});
+</script>
 <link rel="shortcut icon" href="headericon.ico" />
 <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
 <link href="timerstyle.css" rel="stylesheet" type="text/css" media="screen" />
@@ -28,7 +35,7 @@
 
 </head>
 <body>
-
+<div class="se-pre-con"></div>
 <marquee behavior="alternate"><span class="badge badge-pill badge-danger">Page still under development</span></marquee>
 <div class="container">
 <div class="adilresumetitle" style="font-family: 'Abril Fatface'; text-shadow: 2pt 1pt 2pt black; !important;"><marquee behavior="alternate">Welcome to my profile</marquee></div>
