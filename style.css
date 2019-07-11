@@ -41,7 +41,7 @@ body {
 	width: 100%;
 	height: 100%;
 	z-index: 9999;
-	background: url(loading5.gif) center no-repeat #black;
+	background: url(loading0.gif) center no-repeat black;
 }
 
 h1, h2, h3 {
