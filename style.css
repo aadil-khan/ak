@@ -1,5 +1,4 @@
 
-
 body {
 	margin: 0;
 	padding: 0;
@@ -9,16 +8,19 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: repeat;
-/*	font-family: 'Abril Fatface' !important; */
 	font-size: 14px;
 	color: #000;
 	animation: shrink 30s linear infinite alternate;
-	
+/*	font-family: 'Abril Fatface' !important;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+*/	
 }
 
 @keyframes shrink {
   0% {
-    background-size: 150% 150%;
+    background-size: 200% 200%;
   }
   100% {
     background-size: 100% 100%;
@@ -31,7 +33,7 @@ body {
 	font-size: 60px;
 	color: #316ccc;
 }
-
+/*
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -43,7 +45,7 @@ body {
 	z-index: 9999;
 	background: url(loading0.gif) center no-repeat black;
 }
-
+*/
 h1, h2, h3 {
 	margin: 0;
 	padding: 0;
@@ -133,7 +135,7 @@ div.fixed {
 
 #Github {
 	top:280px;
-	background-color: gray;
+	background-color: white;
 	font-size: 12px;
 	font-weight: bold;
 }
