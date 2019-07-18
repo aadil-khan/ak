@@ -1,0 +1,250 @@
+
+
+body.dark-mode {
+	margin: 0;
+	padding: 0;
+	background: #6e7187 url(image.jpg) repeat;
+	height: 100%; 
+	background-size: 150% 150%;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 14px;
+	color: #000;
+	animation: shrink 30s linear infinite alternate;
+/*	font-family: 'Abril Fatface' !important;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+*/	
+}
+
+body.light-mode {
+	margin: 0;
+	padding: 0;
+	background: #6e7187 url(image22.jpg) repeat;
+	height: 100%; 
+	background-size: 150% 150%;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 14px;
+	color: #000;
+	animation: shrink 30s linear infinite alternate;
+/*	font-family: 'Abril Fatface' !important;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+*/	
+}
+
+
+body.nature-mode {
+	margin: 0;
+	padding: 0;
+	background: #6e7187 url(image10.jpg) repeat;
+	height: 100%; 
+	background-size: 150% 150%;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 14px;
+	color: #000;
+	animation: shrink 30s linear infinite alternate;
+/*	font-family: 'Abril Fatface' !important;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+*/	
+}
+
+body.color-mode {
+	margin: 0;
+	padding: 0;
+	background: #6e7187 url(image5.jpg) repeat;
+	height: 100%; 
+	background-size: 150% 150%;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 14px;
+	color: #000;
+	animation: shrink 30s linear infinite alternate;
+/*	font-family: 'Abril Fatface' !important;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+*/	
+}
+
+
+
+@keyframes shrink {
+  0% {
+    background-size: 200% 200%;
+  }
+  100% {
+    background-size: 100% 100%;
+  }
+}
+
+.adilresumetitle {
+	position: relative;
+	font-variant: small-caps;
+	font-size: 60px;
+	color: #316ccc;
+}
+/*
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(loading0.gif) center no-repeat black;
+}
+*/
+
+
+div.fixed {
+	position: fixed;
+	z-index: 10;
+	visibility: hidden;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -60px;
+    transition: 0.5s;
+    padding: 18px;
+    width: 180px;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: right;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 4pt 3pt white;
+	/*outline: 6px ridge white;*/
+}
+
+#mySidenav a:hover {
+    left: 5px;
+	/*outline: 8px ridge white;*/
+	font-size: 20px;
+	box-shadow: 0 0 6pt 4pt black;
+	z-index: 11;
+}
+
+
+#HOME {
+    top: 5px;
+    background-color: #4CAF50;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Instagram {
+    top: 60px;
+	background-color: red;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Facebook {
+    top: 115px;
+	background-color: #003366;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Email {
+    top: 170px;
+    background-color: #cc6600;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Twitter {
+	top:225px;
+	background-color: #01afb2;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Github {
+	top:280px;
+	background-color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
+
+
+
+
+div.fixed2 {
+	position: fixed;
+	right: 200px;
+	z-index: 10;
+}
+
+#mySidenav2 a {
+    position: absolute;
+    right: -140px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: left;
+    color: white;
+    border-radius: 20px 20px 20px 20px;
+	box-shadow: 0 0 6pt 4pt white;
+	text-shadow: 2pt 4pt 3pt white;
+}
+
+#mySidenav2 a:hover {
+    right: -130px;
+	font-size: 20px;
+	box-shadow: 0 0 6pt 4pt black;
+	z-index: 11;
+}
+
+
+#Linkedin2 {
+    top: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Instagram2 {
+    top: 60px;
+	background-repeat: no-repeat;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Facebook2 {
+    top: 115px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Email2 {
+    top: 170px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Twitter2 {
+	top:225px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#Github2 {
+	top:280px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+
