@@ -10,8 +10,8 @@
 <script>
 	/*$(window).load(function() {
 	$(".se-pre-con").fadeOut("slow");;
-	});   */
-	/*<div class="se-pre-con"></div>*/
+	});
+	<div class="se-pre-con"></div>*/
 </script>
 <link rel="shortcut icon" href="headericon.ico" />
 <link href="style1.css" rel="stylesheet" type="text/css" media="screen" />
@@ -40,6 +40,12 @@ function toggleDark() {
   document.getElementById("intro").style="background: rgba(28, 28, 28, 0.9)";
   document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 1pt 1pt 1pt blue; !important;";
    document.getElementById("intro3").style="color:white;";
+   document.getElementById("intro4").style="background: rgba(28, 28, 28, 0.9); color: white; width:350px";
+   document.getElementById("intro5").style="background: rgba(28, 28, 28, 0.9); color: white; width:350px";
+   document.getElementById("intro6").style="background: rgba(28, 28, 28, 0.9); color: white; width:350px";
+   document.getElementById("techprof").style="background: rgba(28, 28, 28, 0.9); color: white;";
+   document.getElementById("likes").style="background: rgba(28, 28, 28, 0.9); color: white;";
+  
 }
 </script>
 <script>
@@ -49,16 +55,37 @@ function toggleLight() {
   document.getElementById("intro").style="background: rgba(204, 204, 204, 0.8)";
   document.getElementById("intro2").style="color:black; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 1pt 1pt 1pt blue; !important;";
   document.getElementById("intro3").style="color:black;"
+  document.getElementById("intro4").style="background: rgba(204, 204, 204, 0.8); color: black; width:350px";
+  document.getElementById("intro5").style="background: rgba(204, 204, 204, 0.8); color: black; width:350px";
+  document.getElementById("intro6").style="background: rgba(204, 204, 204, 0.8); color: black; width:350px";
+  document.getElementById("techprof").style="background: rgba(204, 204, 204, 0.8); color: black;";
+  document.getElementById("likes").style="background: rgba(204, 204, 204, 0.8); color: black;";
 }
 </script>
 <script>
 function toggleNature() {
   document.getElementById("body").className= "nature-mode";
+  document.getElementById("intro").style="background: rgba(9, 109, 171, 0.4)";
+  document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 1pt 1pt 1pt blue; !important;";
+  document.getElementById("intro3").style="color:white;"
+  document.getElementById("intro4").style="background: rgba(9, 109, 171, 0.4); color: white; width:350px";
+  document.getElementById("intro5").style="background: rgba(9, 109, 171, 0.4); color: white; width:350px";
+  document.getElementById("intro6").style="background: rgba(9, 109, 171, 0.4); color: white; width:350px";
+  document.getElementById("techprof").style="background: rgba(9, 109, 171, 0.4); color: white;";
+  document.getElementById("likes").style="background: rgba(9, 109, 171, 0.4); color: white;";
 }
 </script>
 <script>
 function toggleColor() {
-  document.getElementById("body").className="color-mode";
+  document.getElementById("body").className="color-mode"; 
+  document.getElementById("intro").style="background: rgba(20, 158, 5, 0.4)";
+  document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 1pt 1pt 1pt blue; !important;";
+  document.getElementById("intro3").style="color:white;"
+  document.getElementById("intro4").style="background: rgba(20, 158, 5, 0.4); color: white; width:350px";
+  document.getElementById("intro5").style="background: rgba(20, 158, 5, 0.4); color: white; width:350px";
+  document.getElementById("intro6").style="background: rgba(20, 158, 5, 0.4); color: white; width:350px";
+  document.getElementById("techprof").style="background: rgba(20, 158, 5, 0.4); color: white;";
+  document.getElementById("likes").style="background: rgba(20, 158, 5, 0.4); color: white;";
 }
 
 </script>
@@ -77,15 +104,8 @@ function typeWriter() {
 And assign a id="intro" to that div -->
 </script>
 </head>
-<!--<body onload="hideloader()">-->
+<!------------------<body onload="hideloader()">--------------------------->
 <body id="body" class="dark-mode">
-<button type="button" class="btn btn-danger">Switch Theme -></button></button></button>
-<div class="btn-group">
-<button type="button" name="dark_mode" class="btn btn-primary" onclick="toggleDark()" title="Toggle dark mode">Dark</button>
-<button type="button" name="light_mode" class="btn btn-primary" onclick="toggleLight()" title="Toggle light mode">Light</button>
-<button type="button" name="nature_mode" class="btn btn-primary" onclick="toggleNature()" title="Toggle nature mode">Nature</button>
-<button type="button" name="color_mode" class="btn btn-primary" onclick="toggleColor()" title="Toggle color mode">Color</button>
-</div>
 
 <div class="container">
 <marquee behavior="alternate"><div id="adilresumetitle" class="adilresumetitle" style="font-family: 'Abril Fatface'; text-shadow: 2pt 1pt 2pt white; !important;">Welcome to my profile</div></marquee>
@@ -93,14 +113,13 @@ And assign a id="intro" to that div -->
 </div>
 <div class="fixed">
 <div id="mySidenav" class="sidenav">
-<a  id="HOME">HOME</a>
-
-<a href="https://instagram.com/whoadil" target="_blank" onClick="window.open('https://instagram.com/whoadil','instagram','resizable,height=600,width=800'); return false;" id="Instagram">Instagram</a>
-<a href="https://facebook.com/whoadil" target="_blank" onClick="window.open('https://facebook.com/whoadil','facebook','resizable,height=600,width=800'); return false;" id="Facebook">Facebook</a>
-<a href="mailto:adilkhan@programmer.net" id="Email">Email</a>
-<a href="https://twitter.com/adithel" target="_blank" onClick="window.open('https://twitter.com/adithel','twitter','resizable,height=600,width=800'); return false;" id="Twitter">Twitter</a>
-<a href="https://github.com/adilkhan4" target="_blank" onClick="window.open('https://github.com/adilkhan4','github','resizable,height=600,width=800'); return false;" id="Github">Github</a>
-
+<div class="btn-group-vertical">
+<button type="button" class="btn btn-danger">Switch Theme</button>
+<button type="button" name="dark_mode" class="btn btn-primary" onclick="toggleDark()" title="Toggle dark mode">Dark-Mode</button>
+<button type="button" name="light_mode" class="btn btn-primary" onclick="toggleLight()" title="Toggle light mode">Light-Mode</button>
+<button type="button" name="nature_mode" class="btn btn-primary" onclick="toggleNature()" title="Toggle nature mode">Nature-Mode</button>
+<button type="button" name="color_mode" class="btn btn-primary" onclick="toggleColor()" title="Toggle color mode">Color-Mode</button>
+</div>
 </div>
 </div>
 
@@ -121,7 +140,7 @@ And assign a id="intro" to that div -->
 
 <div class="container">
 <div id="intro" style="background: rgba(28, 28, 28, 0.9); color: white;" class="jumbotron">
-<img src="img.jpeg" class="float-left rounded-circle img-fluid" style="height:200; width:200; margin-right:20px; margin-bottom:20px; box-shadow: 0 0 6pt 4pt white;" alt="Adil Khan">
+<div class="image-zoom"><img src="img.jpeg" class="float-left rounded-circle img-fluid" style="height:200; width:200; margin-right:20px; margin-bottom:20px; box-shadow: 0 0 6pt 4pt white; overflow: hidden; transition: 1s;" alt="Adil Khan"></div>
 <h1 id="intro2" style="color:white; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 1pt 1pt 1pt blue; !important;">Adil khan</h1>
 <p id="intro3" style="color:white;">I am Adil Khan working primarily as <span class="badge badge-warning">Robotic Process Automation Developer</span> with 
 <span class="badge badge-warning">IBM India Pvt Ltd</span> since  January 2015. I am an Electronics and Communication Engineer. I have 
@@ -135,34 +154,38 @@ And assign a id="intro" to that div -->
 
 <div class="container">
 <div class="card-deck">
- <div class="card" style="background: rgba(28, 28, 28, 0.9); color: white; width:350px">
+ <div id="intro4" class="card" style="background: rgba(28, 28, 28, 0.9); color: white; width:350px">
     <img class="card-img-top img-fluid" src="dev6.gif" alt="automation" style="height:345; width:345;">
     <div class="card-body">
     <h4 class="card-title d-flex justify-content-center""><span class="badge badge-pill badge-success">RPA Developer</span></span></h4>
-    <p class="card-text" style="color:white;">Working with IBM India as a Robotic Process Automation (RPA) Developer. We are currently using Automation Anywhere tool to develop auto bots.</p>
+    <p class="card-text">Working with IBM India as a Robotic Process Automation (RPA) Developer. We are currently using Automation Anywhere tool to develop auto bots.</p>
 	<div class="progress"><div class="progress-bar progress-bar-striped progress-bar-animated" style="width:99%">Automation Skill Level</div></div>
     </div>
   </div> 
- <div class="card" style="background: rgba(28, 28, 28, 0.9); color: white; width:350px">
+ <div id="intro5" class="card" style="background: rgba(28, 28, 28, 0.9); color: white; width:350px">
     <img class="card-img-top img-fluid" src="dev9.gif" alt="uiux" style="height:345; width:345;">
     <div class="card-body">
     <h4 class="card-title d-flex justify-content-center" style="color:black;"><span class="badge badge-pill badge-success">UX/UI Designer</span></h4>
-    <p class="card-text" style="color:white;">I have been working as UI/UX developer for in house projects that were deployed internally. These projects were for in intranet websites.</p>
+    <p class="card-text">I have been working as UI/UX developer for in house projects that were deployed internally. These projects were for in intranet websites.</p>
 	<div class="progress"><div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">UX/UI Skill Level</div></div>
     </div>
   </div>
- <div class="card" style="background: rgba(28, 28, 28, 0.9); color: white; width:350px">
+ <div id="intro6" class="card" style="background: rgba(28, 28, 28, 0.9); color: white; width:350px">
     <img class="card-img-top img-fluid" src="dev5.gif" alt="developer" style="height:350; width:350;">
     <div class="card-body">
     <h4 class="card-title d-flex justify-content-center" style="color:black;"><span class="badge badge-pill badge-success">Front End Developer</span></h4>
-    <p class="card-text" style="color:white;">Have developed projects using font-end web developement languages including HTML, CSS, JavaScript, AngularJS, Bootstrap.</p>
+    <p class="card-text">Have developed projects using font-end web developement languages including HTML, CSS, JavaScript, AngularJS, Bootstrap.</p>
 	<div class="progress"><div class="progress-bar progress-bar-striped progress-bar-animated" style="width:90%">Web Development Skill Level</div></div>
     </div>
   </div>
 </div>
 </div>
 </br>
-<div style="background: rgba(204, 204, 204, 0.8); color: black;"; class="jumbotron">
+
+
+
+<div class="container">
+<div id="techprof" style="background: rgba(28, 28, 28, 0.9); color: white;"; class="jumbotron">
 <h1 style="color:black; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 2pt 1pt 2pt white; !important;">TECHNICAL PROFICIENCY</h1>
 
 
@@ -273,10 +296,10 @@ And assign a id="intro" to that div -->
 
 
 </div>
+</div>
 
-
-
-<div style="background: rgba(28, 28, 28, 0.9); color: white;"; class="jumbotron">
+<div class="container">
+<div id="likes" style="background: rgba(28, 28, 28, 0.9); color: white;"; class="jumbotron">
 <h1 style="color:black; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 2pt 1pt 2pt white; !important;">I also like..</h1>
 
 <div class="container mt-3">
@@ -303,14 +326,12 @@ And assign a id="intro" to that div -->
     </div>
 </div>
 </div>
-
-
-
-
-
-
-
 </div>
+</div>
+
+<!------------------------ section ------------------------------>
+
+
 
 </body>
 </html>

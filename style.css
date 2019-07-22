@@ -108,7 +108,7 @@ body.color-mode {
 div.fixed {
 	position: fixed;
 	z-index: 10;
-	visibility: hidden;
+	/*visibility: hidden;*/
 }
 
 #mySidenav a {
@@ -135,48 +135,35 @@ div.fixed {
 }
 
 
-#HOME {
-    top: 5px;
-    background-color: #4CAF50;
-	font-size: 12px;
-	font-weight: bold;
-}
-
-#Instagram {
+#dark_mode {
     top: 60px;
-	background-color: red;
+	background-color: grey;
 	background-repeat: no-repeat;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Facebook {
+#light_mode {
     top: 115px;
 	background-color: #003366;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Email {
+#nature_mode {
     top: 170px;
     background-color: #cc6600;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Twitter {
+#color_mode {
 	top:225px;
 	background-color: #01afb2;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Github {
-	top:280px;
-	background-color: white;
-	font-size: 12px;
-	font-weight: bold;
-}
 
 
 
