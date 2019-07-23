@@ -73,6 +73,23 @@ body.color-mode {
 */	
 }
 
+body.tech-mode {
+	margin: 0;
+	padding: 0;
+	background: #6e7187 url(background3.gif) repeat;
+	height: 100%; 
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-position: center;
+	font-size: 14px;
+	color: #000;
+
+/*	font-family: 'Abril Fatface' !important;
+	filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+*/	
+}
 
 
 @keyframes shrink {
