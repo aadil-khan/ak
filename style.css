@@ -124,6 +124,7 @@ body.tech-mode {
 
 div.fixed {
 	position: fixed;
+	top: 0px;
 	z-index: 10;
 	/*visibility: hidden;*/
 }
@@ -195,7 +196,7 @@ div.fixed2 {
 
 #mySidenav2 a {
     position: absolute;
-    right: -140px;
+    right: -170px;
     transition: 0.5s;
     text-decoration: none;
     font-size: 18px;
@@ -207,7 +208,7 @@ div.fixed2 {
 }
 
 #mySidenav2 a:hover {
-    right: -130px;
+    right: -160px;
 	font-size: 20px;
 	box-shadow: 0 0 6pt 4pt black;
 	z-index: 11;
