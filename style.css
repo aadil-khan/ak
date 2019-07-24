@@ -124,7 +124,6 @@ body.tech-mode {
 
 div.fixed {
 	position: fixed;
-	top: 0px;
 	z-index: 10;
 	/*visibility: hidden;*/
 }
@@ -234,23 +233,19 @@ div.fixed2 {
 	font-weight: bold;
 }
 
-#Email2 {
+#Twitter2 {
     top: 170px;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Twitter2 {
+#Email2 {
 	top:225px;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Github2 {
-	top:280px;
-	font-size: 12px;
-	font-weight: bold;
-}
+
 
 .image-zoom:hover img{
 	transform: scale(1.5);
