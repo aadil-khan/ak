@@ -127,7 +127,8 @@ And assign a id="intro" to that div -->
 <body id="body" class="dark-mode">
 
 <div class="container">
-<marquee behavior="alternate"><div id="adilresumetitle" class="adilresumetitle" style="font-family: 'Abril Fatface'; text-shadow: 2pt 1pt 2pt white; !important;">Welcome to my profile</div></marquee>
+<!--marquee behavior="alternate"-->
+<center><div id="adilresumetitle" class="adilresumetitle" style="font-family: 'Abril Fatface'; text-shadow: 2pt 1pt 2pt white; !important;">Welcome to my profile</div></center>
 </br>
 </div>
 <div class="fixed">
@@ -147,10 +148,10 @@ And assign a id="intro" to that div -->
 
 <div class="fixed2">
 <div id="mySidenav2" class="sidenav2">
-<a href="https://www.linkedin.com/in/adil-khan-b373a6174/" target="_blank" onClick="window.open('https://www.linkedin.com/in/adil-khan-b373a6174/','linkedin2','resizable,height=600,width=800'); return false;" id="Linkedin2"><img src="linkedin.png" height="50" width="50"></a>
-<a href="https://instagram.com/whoadil" target="_blank" onClick="window.open('https://instagram.com/whoadil','instagram2','resizable,height=600,width=800'); return false;" id="Instagram2"><img src="instagram.png" height="50" width="50"></a>
-<a href="https://facebook.com/whoadil" target="_blank" onClick="window.open('https://facebook.com/whoadil','facebook2','resizable,height=600,width=800'); return false;" id="Facebook2"><img src="facebook.png" height="50" width="50"></a>
-<a href="https://twitter.com/adithel" target="_blank" onClick="window.open('https://twitter.com/adithel','twitter2','resizable,height=600,width=800'); return false;" id="Twitter2"><img src="twitter.png" height="50" width="50"></a>
+<a href="https://www.linkedin.com/in/adil-khan-b373a6174/" target="_blank" onClick="window.open('https://www.linkedin.com/in/adil-khan-b373a6174/','linkedin2','resizable,height=600,width=800,top=120,left=600'); return false;" id="Linkedin2"><img src="linkedin.png" height="50" width="50"></a>
+<a href="https://instagram.com/whoadil" target="_blank" onClick="window.open('https://instagram.com/whoadil','instagram2','resizable,height=600,width=800,top=120,left=600'); return false;" id="Instagram2"><img src="instagram.png" height="50" width="50"></a>
+<a href="https://facebook.com/whoadil" target="_blank" onClick="window.open('https://facebook.com/whoadil','facebook2','resizable,height=600,width=800,top=120,left=600'); return false;" id="Facebook2"><img src="facebook.png" height="50" width="50"></a>
+<a href="https://twitter.com/adithel" target="_blank" onClick="window.open('https://twitter.com/adithel','twitter2','resizable,height=600,width=800,top=120,left=600'); return false;" id="Twitter2"><img src="twitter.png" height="50" width="50"></a>
 <a href="mailto:adilkhan@programmer.net" id="Email2"><img src="email.png" height="50" width="50"></a>
 </div>
 </div>
@@ -158,7 +159,7 @@ And assign a id="intro" to that div -->
 
 
 <div class="container">
-<div id="intro" style="background: rgba(28, 28, 28, 0.9); color: white;" class="jumbotron">
+<div id="intro" style="background: rgba(28, 28, 28, 0.9); margin-bottom: 10px; color: white;" class="jumbotron">
 <div class="image-zoom"><img src="img.jpeg" class="float-left rounded-circle img-fluid" style="height:200; width:200; margin-right:20px; margin-bottom:20px; box-shadow: 0 0 6pt 4pt white; overflow: hidden; transition: 1s;" alt="Adil Khan"></div>
 <h1 id="intro2" style="color:white; margin-top:20px; text-align: center; font-family: 'Abril Fatface'; text-shadow: 1pt 1pt 1pt blue; !important;">Adil khan</h1>
 <p id="intro3" style="color:white;">I am Adil Khan working primarily as <span class="badge badge-warning">Robotic Process Automation Developer</span> with 
@@ -172,11 +173,11 @@ And assign a id="intro" to that div -->
 
 
 <div class="container">
-<div id="resume2" style="background: rgba(28, 28, 28, 0.9); color: red;" class="jumbotron">
-<center><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#resume">Access My Resume Here</button></center>
+<div id="resume2" style="background: rgba(28, 28, 28, 0.9); color: red; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;" class="jumbotron">
+<center><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#resume">Access My Resume</button></center>
   <div id="resume" class="collapse">
 <center>This section is my complete resume. You need an ID and Password to log on to the following section to see my resume.</center>
-<iframe src="resume.html" style="border:4px solid black;height:100%;width:100%;"></iframe>
+<div class="embed-responsive embed-responsive-16by9"><iframe class="embed-responsive-item" src="resume.html" style="border:4px solid black;height:100%;width:100%;"></iframe></div>
   </div>
 </div>
 </div>

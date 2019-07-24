@@ -207,7 +207,7 @@ div.fixed2 {
 }
 
 #mySidenav2 a:hover {
-    right: -160px;
+    right: -165px;
 	font-size: 20px;
 	box-shadow: 0 0 6pt 4pt black;
 	z-index: 11;
