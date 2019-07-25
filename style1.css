@@ -195,7 +195,7 @@ div.fixed2 {
 
 #mySidenav2 a {
     position: absolute;
-    right: -140px;
+    right: -170px;
     transition: 0.5s;
     text-decoration: none;
     font-size: 18px;
@@ -207,7 +207,7 @@ div.fixed2 {
 }
 
 #mySidenav2 a:hover {
-    right: -130px;
+    right: -165px;
 	font-size: 20px;
 	box-shadow: 0 0 6pt 4pt black;
 	z-index: 11;
@@ -233,23 +233,19 @@ div.fixed2 {
 	font-weight: bold;
 }
 
-#Email2 {
+#Twitter2 {
     top: 170px;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Twitter2 {
+#Email2 {
 	top:225px;
 	font-size: 12px;
 	font-weight: bold;
 }
 
-#Github2 {
-	top:280px;
-	font-size: 12px;
-	font-weight: bold;
-}
+
 
 .image-zoom:hover img{
 	transform: scale(1.5);
