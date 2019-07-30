@@ -27,7 +27,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 <script src="theme.js"></script>
-
+<script>
+function loaded(){
+document.getElementById("loader").style.display = "none";
+}
+</script>
 
 <!--<script>
 function toggleDarkLight() {
@@ -54,7 +58,9 @@ function typeWriter() {
 
 </head>
 <!------------------<body onload="hideloader()">--------------------------->
-<body id="body" class="dark-mode">
+<body id="body" class="dark-mode" onload="loaded()">
+
+<div id="loader" style="height:100%;width:100%;background-color: black;z-index:99;"><center></br></br></br></br><p><font color="white" size="8"><b>Loading..</b></font></p><img src="automation3.gif" style=" z-index:100;vertical-align:middle; "></center></div>
 
 <div class="container">
 <!--marquee behavior="alternate"-->
