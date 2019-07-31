@@ -32,7 +32,12 @@ function loaded(){
 document.getElementById("loader").style.display = "none";
 }
 </script>
-
+<script>
+function slowbrowsercall() {
+  setTimeout(function(){ document.getElementById("slowbrowser").innerHTML="Please wait while the page loads" }, 2000);
+  setTimeout(function(){ document.getElementById("slowbrowser").innerHTML="Page seems to load a little slow" }, 5000);
+  }
+</script>
 <!--<script>
 function toggleDarkLight() {
   var body = document.getElementById("dark-mode");
@@ -60,7 +65,7 @@ function typeWriter() {
 <!------------------<body onload="hideloader()">--------------------------->
 <body id="body" class="dark-mode" onload="loaded()">
 
-<div id="loader" style="height:100%;width:100%;background-color: black;z-index:99;"><center></br></br></br></br><p><font color="white" size="8"><b>Loading..</b></font></p><img src="automation3.gif" style=" z-index:100;vertical-align:middle; "></center></div>
+<div id="loader" style="height:100%;width:100%;background-color: black;color:red;z-index:99;background-position: center;position: fixed;"><center></br></br></br></br></br></br></br><p><font color="blue" size="8"><b>Loading..</b></font></p><img src="automation3.gif" onload="slowbrowsercall()" style=" z-index:100;vertical-align:middle; "><p id="slowbrowser"></p></center></div>
 
 <div class="container">
 <!--marquee behavior="alternate"-->
@@ -163,17 +168,17 @@ function typeWriter() {
 <div class="container mt-3">
 <div class="media p-3">
 
-<img src="automation3.gif" alt="image" class="rounded-circle align-self-center mr-3" style="width:70px;">
+<img src="automation3.gif" alt="image" class=" align-self-center mr-3" style="width:70px;">
     <div class="media-body align-self-center">
     <h4>Automation Anywhere</h4>
     </div>
 
-<img src="automation3.gif" alt="image" class="rounded-circle align-self-center mr-3" style="width:70px;">
+<img src="automation3.gif" alt="image" class=" align-self-center mr-3" style="width:70px;">
     <div class="media-body align-self-center">
     <h4>UiPath</h4>
     </div>
 	
-<img src="automation3.gif" alt="image" class="rounded-circle align-self-center mr-3" style="width:70px;">
+<img src="automation3.gif" alt="image" class=" align-self-center mr-3" style="width:70px;">
     <div class="media-body align-self-center">
     <h4>BluePrism</h4>
     </div>
@@ -307,9 +312,9 @@ function typeWriter() {
 <!------------------------ section ------------------------------>
 
 <div id="footer" style="background: rgba(28, 28, 28, 0.9); margin-bottom: 0; padding-bottom: 15px; padding-top: 20px;" class="jumbotron">
-<center><font size=3 color=white><b>Contact Me</b></font></center>
+<center><font size=4 color=white><b>Contact Me</b></font></center>
 <center><a href="mailto:adilkhan@programmer.net"><img src="email2.png" height="50" width="50"></a></center>
-<center><font size=2 color=red>Disclaimer: All the codes are my own creation. You can use any part of this page in your website. Email me for any source code if you want to learn.</font></center>
+<center><font size=3 color=red>Disclaimer: All the codes are my own creation. You can use any part of this page in your website. Email me for any source code if you want to learn.</font></center>
 </div>
 
 </body>

@@ -8,7 +8,7 @@ body.dark-mode {
 	background-size: 150% 150%;
 	background-attachment: fixed;
 	background-position: center;
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
 	animation: shrink 30s linear infinite alternate;
 /*	font-family: 'Abril Fatface' !important;
