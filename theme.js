@@ -1,11 +1,7 @@
 function toggleDark() {
   var body = document.getElementById("body");
   body.className = "dark-mode";
-<<<<<<< HEAD
   document.getElementsByTagName("META")[0].content = "#121212";
-=======
-  document.getElementsByTagName("META")[0].content = "#303030";
->>>>>>> a638844f728ef897d080a5d48a8901ee894bcac6
   document.getElementById("intro").style="background: rgba(28, 28, 28, 0.9); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(28, 28, 28, 0.9); color: yellow; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
@@ -22,11 +18,7 @@ function toggleDark() {
 function toggleLight() {
   var body = document.getElementById("body");
   body.className = "light-mode";
-<<<<<<< HEAD
   document.getElementsByTagName("META")[0].content = "#c2c2c2";
-=======
-  document.getElementsByTagName("META")[0].content = "#cad9fc";
->>>>>>> a638844f728ef897d080a5d48a8901ee894bcac6
   document.getElementById("intro").style="background: rgba(204, 204, 204, 0.8); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(204, 204, 204, 0.8); color: red; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:black; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
