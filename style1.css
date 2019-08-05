@@ -26,7 +26,7 @@ body.light-mode {
 	background-size: 150% 150%;
 	background-attachment: fixed;
 	background-position: center;
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
 	animation: shrink 30s linear infinite alternate;
 /*	font-family: 'Abril Fatface' !important;
@@ -45,7 +45,7 @@ body.nature-mode {
 	background-size: 150% 150%;
 	background-attachment: fixed;
 	background-position: center;
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
 	animation: shrink 30s linear infinite alternate;
 /*	font-family: 'Abril Fatface' !important;
@@ -63,7 +63,7 @@ body.color-mode {
 	background-size: 150% 150%;
 	background-attachment: fixed;
 	background-position: center;
-	font-size: 14px;
+	font-size: 18px;
 	color: #000;
 	animation: shrink 30s linear infinite alternate;
 /*	font-family: 'Abril Fatface' !important;
@@ -81,7 +81,7 @@ body.tech-mode {
 	background-size: 100% 100%;
 	background-attachment: fixed;
 	background-position: center;
-	font-size: 14px;
+	font-size: 18	px;
 	color: #000;
 
 /*	font-family: 'Abril Fatface' !important;
