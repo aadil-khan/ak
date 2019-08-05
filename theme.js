@@ -1,6 +1,7 @@
 function toggleDark() {
   var body = document.getElementById("body");
   body.className = "dark-mode";
+  document.getElementsByTagName("META")[0].content = "rgba(28, 28, 28)";
   document.getElementById("intro").style="background: rgba(28, 28, 28, 0.9); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(28, 28, 28, 0.9); color: yellow; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
@@ -10,12 +11,14 @@ function toggleDark() {
   document.getElementById("intro6").style="background: rgba(28, 28, 28, 0.9); color: white; width:350px";
   document.getElementById("techprof").style="background: rgba(28, 28, 28, 0.9); color: white; padding-top: 15px; padding-bottom: 15px;";
   document.getElementById("likes").style="background: rgba(28, 28, 28, 0.9); color: white; padding-top: 15px; padding-bottom: 15px;";
+ 
   
 }
 
 function toggleLight() {
   var body = document.getElementById("body");
   body.className = "light-mode";
+  document.getElementsByTagName("META")[0].content = "black";
   document.getElementById("intro").style="background: rgba(204, 204, 204, 0.8); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(204, 204, 204, 0.8); color: red; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:black; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
