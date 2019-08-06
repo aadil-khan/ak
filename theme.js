@@ -32,7 +32,7 @@ function toggleLight() {
 
 function toggleNature() {
   document.getElementById("body").className= "nature-mode";
-  document.getElementsByTagName("META")[0].content = "#379e3e";
+  document.getElementsByTagName("META")[0].content = "#46b363";
   document.getElementById("intro").style="background: rgba(20, 158, 5, 0.3); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(20, 158, 5, 0.3); color: red; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
