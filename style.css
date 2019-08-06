@@ -139,7 +139,7 @@ div.fixed {
     text-align: right;
     color: white;
     border-radius: 20px 20px 20px 20px;
-	box-shadow: 0 0 4pt 3pt white;
+	box-shadow: 0 0 6pt 4pt black;
 	/*outline: 6px ridge white;*/
 }
 
@@ -147,7 +147,7 @@ div.fixed {
     left: 5px;
 	/*outline: 8px ridge white;*/
 	font-size: 20px;
-	box-shadow: 0 0 6pt 4pt black;
+	box-shadow: 0 0 4pt 3pt white;
 	z-index: 11;
 }
 
@@ -202,14 +202,14 @@ div.fixed2 {
     text-align: left;
     color: white;
     border-radius: 20px 20px 20px 20px;
-	box-shadow: 0 0 6pt 4pt white;
+	box-shadow: 0 0 6pt 4pt black;
 	text-shadow: 2pt 4pt 3pt white;
 }
 
 #mySidenav2 a:hover {
     right: -165px;
 	font-size: 20px;
-	box-shadow: 0 0 6pt 4pt black;
+	box-shadow: 0 0 6pt 4pt white;
 	z-index: 11;
 }
 
