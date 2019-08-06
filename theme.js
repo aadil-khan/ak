@@ -13,11 +13,11 @@ function toggleDark() {
   document.getElementById("likes").style="background: rgba(28, 28, 28, 0.9); color: white; padding-top: 15px; padding-bottom: 15px;";
   
   document.getElementById("theme_button").className= "btn btn-warning";
-  document.getElementById("dark_mode").className= "btn btn-info";
-  document.getElementById("light_mode").className= "btn btn-info";
-  document.getElementById("nature_mode").className= "btn btn-info";
-  document.getElementById("color_mode").className= "btn btn-info";
-  document.getElementById("tech_mode").className= "btn btn-info";
+  document.getElementById("dark_mode_button").className= "btn btn-info";
+  document.getElementById("light_mode_button").className= "btn btn-info";
+  document.getElementById("nature_mode_button").className= "btn btn-info";
+  document.getElementById("color_mode_button").className= "btn btn-info";
+  document.getElementById("tech_mode_button").className= "btn btn-info";
  
   
 }
@@ -37,11 +37,11 @@ function toggleLight() {
   document.getElementById("likes").style="background: rgba(204, 204, 204, 0.8); color: black; padding-top: 15px; padding-bottom: 15px;";
   
   document.getElementById("theme_button").className= "btn btn-success";
-  document.getElementById("dark_mode").className= "btn btn-info";
-  document.getElementById("light_mode").className= "btn btn-info";
-  document.getElementById("nature_mode").className= "btn btn-info";
-  document.getElementById("color_mode").className= "btn btn-info";
-  document.getElementById("tech_mode").className= "btn btn-info";
+  document.getElementById("dark_mode_button").className= "btn btn-info";
+  document.getElementById("light_mode_button").className= "btn btn-info";
+  document.getElementById("nature_mode_button").className= "btn btn-info";
+  document.getElementById("color_mode_button").className= "btn btn-info";
+  document.getElementById("tech_mode_button").className= "btn btn-info";
 }
 
 function toggleNature() {
@@ -58,11 +58,11 @@ function toggleNature() {
   document.getElementById("likes").style="background: rgba(20, 158, 5, 0.3); color: white; padding-top: 15px; padding-bottom: 15px;";
   
   document.getElementById("theme_button").className= "btn btn-primary";
-  document.getElementById("dark_mode").className= "btn btn-success";
-  document.getElementById("light_mode").className= "btn btn-success";
-  document.getElementById("nature_mode").className= "btn btn-success";
-  document.getElementById("color_mode").className= "btn btn-success";
-  document.getElementById("tech_mode").className= "btn btn-success";
+  document.getElementById("dark_mode_button").className= "btn btn-success";
+  document.getElementById("light_mode_button").className= "btn btn-success";
+  document.getElementById("nature_mode_button").className= "btn btn-success";
+  document.getElementById("color_mode_button").className= "btn btn-success";
+  document.getElementById("tech_mode_button").className= "btn btn-success";
 }
 
 function toggleColor() {
@@ -79,11 +79,11 @@ function toggleColor() {
   document.getElementById("likes").style="background: rgba(9, 109, 171, 0.4); color: white; padding-top: 15px; padding-bottom: 15px;";
   
   document.getElementById("theme_button").className= "btn btn-success";
-  document.getElementById("dark_mode").className= "btn btn-primary";
-  document.getElementById("light_mode").className= "btn btn-primary";
-  document.getElementById("nature_mode").className= "btn btn-primary";
-  document.getElementById("color_mode").className= "btn btn-primary";
-  document.getElementById("tech_mode").className= "btn btn-primary";
+  document.getElementById("dark_mode_button").className= "btn btn-primary";
+  document.getElementById("light_mode_button").className= "btn btn-primary";
+  document.getElementById("nature_mode_button").className= "btn btn-primary";
+  document.getElementById("color_mode_button").className= "btn btn-primary";
+  document.getElementById("tech_mode_button").className= "btn btn-primary";
 }
 
 
@@ -101,9 +101,9 @@ function toggleTech() {
   document.getElementById("likes").style="background: rgba(28, 28, 28, 0.7); color: white; padding-top: 15px; padding-bottom: 15px;";
   
   document.getElementById("theme_button").className= "btn btn-success";
-  document.getElementById("dark_mode").className= "btn btn-info";
-  document.getElementById("light_mode").className= "btn btn-info";
-  document.getElementById("nature_mode").className= "btn btn-info";
-  document.getElementById("color_mode").className= "btn btn-info";
-  document.getElementById("tech_mode").className= "btn btn-info";
+  document.getElementById("dark_mode_button").className= "btn btn-info";
+  document.getElementById("light_mode_button").className= "btn btn-info";
+  document.getElementById("nature_mode_button").className= "btn btn-info";
+  document.getElementById("color_mode_button").className= "btn btn-info";
+  document.getElementById("tech_mode_button").className= "btn btn-info";
 }
