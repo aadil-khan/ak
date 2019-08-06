@@ -46,7 +46,7 @@ function toggleNature() {
 
 function toggleColor() {
 	document.getElementById("body").className= "color-mode";
-	document.getElementsByTagName("META")[0].content = "#379e3e";
+	document.getElementsByTagName("META")[0].content = "#717dd9";
   document.getElementById("intro").style="background: rgba(9, 109, 171, 0.4); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(9, 109, 171, 0.4); color: yellow; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
@@ -61,7 +61,7 @@ function toggleColor() {
 
 function toggleTech() {
   document.getElementById("body").className="tech-mode"; 
-  document.getElementsByTagName("META")[0].content = "##05c7f2";
+  document.getElementsByTagName("META")[0].content = "#05c7f2";
   document.getElementById("intro").style="background: rgba(28, 28, 28, 0.7); margin-bottom: 10px; padding-top: 15px; padding-bottom: 25px;";
   document.getElementById("resume2").style="background: rgba(28, 28, 28, 0.7); color: yellow; margin-bottom: 10px; margin-top: 10px; padding-bottom: 10px; padding-top: 10px;";
   document.getElementById("intro2").style="color:white; margin-top:20px; text-align: center; text-shadow: 1pt 1pt 1pt blue; font-variant: small-caps; !important;";
