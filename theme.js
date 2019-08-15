@@ -11,6 +11,7 @@ function toggleDark() {
   document.getElementById("intro6").style="background: rgba(28, 28, 28, 0.9); color: white; width:350px";
   document.getElementById("techprof").style="background: rgba(28, 28, 28, 0.9); color: white; padding-top: 15px; padding-bottom: 15px;";
   document.getElementById("likes").style="background: rgba(28, 28, 28, 0.9); color: white; padding-top: 15px; padding-bottom: 15px;";
+  document.getElementById("footer").style="background: rgba(28, 28, 28, 0.9); margin-bottom: 0; padding-bottom: 15px; padding-top: 20px;"
   
   document.getElementById("theme_button").className= "btn btn-warning";
   document.getElementById("dark_mode_button").className= "btn btn-info";
@@ -35,6 +36,7 @@ function toggleLight() {
   document.getElementById("intro6").style="background: rgba(204, 204, 204, 0.8); color: black; width:350px";
   document.getElementById("techprof").style="background: rgba(204, 204, 204, 0.8); color: black; padding-top: 15px; padding-bottom: 15px;";
   document.getElementById("likes").style="background: rgba(204, 204, 204, 0.8); color: black; padding-top: 15px; padding-bottom: 15px;";
+  document.getElementById("footer").style="background: rgba(204, 204, 204, 0.8); margin-bottom: 0; padding-bottom: 15px; padding-top: 20px;"
   
   document.getElementById("theme_button").className= "btn btn-success";
   document.getElementById("dark_mode_button").className= "btn btn-info";
@@ -42,6 +44,7 @@ function toggleLight() {
   document.getElementById("nature_mode_button").className= "btn btn-info";
   document.getElementById("color_mode_button").className= "btn btn-info";
   document.getElementById("tech_mode_button").className= "btn btn-info";
+ 
 }
 
 function toggleNature() {
@@ -56,6 +59,7 @@ function toggleNature() {
   document.getElementById("intro6").style="background: rgba(20, 158, 5, 0.3); color: white; width:350px";
   document.getElementById("techprof").style="background: rgba(20, 158, 5, 0.3); color: white; padding-top: 15px; padding-bottom: 15px;";
   document.getElementById("likes").style="background: rgba(20, 158, 5, 0.3); color: white; padding-top: 15px; padding-bottom: 15px;";
+  document.getElementById("footer").style="background: rgba(20, 158, 5, 0.3); margin-bottom: 0; padding-bottom: 15px; padding-top: 20px;"
   
   document.getElementById("theme_button").className= "btn btn-primary";
   document.getElementById("dark_mode_button").className= "btn btn-success";
@@ -77,6 +81,7 @@ function toggleColor() {
   document.getElementById("intro6").style="background: rgba(9, 109, 171, 0.4); color: white; width:350px";
   document.getElementById("techprof").style="background: rgba(9, 109, 171, 0.4); color: white; padding-top: 15px; padding-bottom: 15px;";
   document.getElementById("likes").style="background: rgba(9, 109, 171, 0.4); color: white; padding-top: 15px; padding-bottom: 15px;";
+  document.getElementById("footer").style="background: rgba(9, 109, 171, 0.4); margin-bottom: 0; padding-bottom: 15px; padding-top: 20px;"
   
   document.getElementById("theme_button").className= "btn btn-success";
   document.getElementById("dark_mode_button").className= "btn btn-primary";
@@ -99,6 +104,8 @@ function toggleTech() {
   document.getElementById("intro6").style="background: rgba(28, 28, 28, 0.7); color: white; width:350px";
   document.getElementById("techprof").style="background: rgba(28, 28, 28, 0.7); color: white; padding-top: 15px; padding-bottom: 15px;";
   document.getElementById("likes").style="background: rgba(28, 28, 28, 0.7); color: white; padding-top: 15px; padding-bottom: 15px;";
+  document.getElementById("footer").style="background: rgba(28, 28, 28, 0.7); margin-bottom: 0; padding-bottom: 15px; padding-top: 20px;"
+  
   
   document.getElementById("theme_button").className= "btn btn-success";
   document.getElementById("dark_mode_button").className= "btn btn-info";
